@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 
 # ---------------- API KEYS ----------------
-API1_KEY = "PUT_YOUR_FIRST_OPENROUTER_KEY"
-API2_KEY = "PUT_YOUR_SECOND_OPENROUTER_KEY"
+API1_KEY = "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"
+API2_KEY = "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"
 
 # ---------------- API URL ----------------
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
@@ -203,4 +203,4 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=port,
         debug=True
-    )
+)
